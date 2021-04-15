@@ -1,0 +1,67 @@
+@media(max-width: 1024px){
+    #container .add-book input{
+        width: 70%;
+    }
+
+    #container .add-book button{
+        width: 27%;
+    }
+}
+
+@media(max-width: 768px){
+    #container #page-banner,
+    #container #books-list{
+        width: 70%;
+    }
+}
+
+@media(max-width: 425px){
+    #container #page-banner{
+        width: 100%;
+    }
+
+    #container #books-list{
+        width: 90%;
+    }
+
+    .book .informations div span{
+        font-size: 1rem;
+    }
+}
+
+@media(min-width: 320px){
+    #container .add-book input{
+        width: 100%;
+    }
+
+    #container .add-book button{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    #container .add-book{
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media(min-width: 768px){
+    #container .add-book{
+        width: 50%;
+    }
+}
+
+@media(min-width: 1024px){
+    #container .add-book{
+        width: 50%;
+    }
+
+    #container .add-book input{
+        width: 70%;
+    }
+
+    #container .add-book button{
+        width: 27%;
+        margin: 20px 0;
+    }
+}

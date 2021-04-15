@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buscas de livros por filtragem</title>
+
+    <link rel="stylesheet" href="/public/styles/main.css" />
+    <link rel="stylesheet" href="/public/styles/book-list.css" />
+    <link rel="stylesheet" href="/public/styles/responsive.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <header></header>
+
+      <div id="page-banner">
+        <form id="search-books">
+          <input type="text" placeholder="Pesquisar livro..." />
+        </form>
+      </div>
+
+      <div id="books-list">
+        <div class="book">
+          <div class="informations">
+            <div>
+              <span>Os 7 hábitos das pessoas altamentes eficazes</span>
+            </div>
+            <span><i class="fas fa-times"></i></span>
+          </div>
+        </div>
+
+        <div class="book">
+          <div class="informations">
+              <div>
+                <span>Seja um líder de heróis</span>
+              </div>
+              <span><i class="fas fa-times"></i></span>
+          </div>
+        </div>
+
+        <div class="book">
+        <div class="informations">
+            <div>
+              <span>Como fazer amigos e influenciar pessoas</span>
+            </div>
+            <span><i class="fas fa-times"></i></span>
+        </div>
+        </div>
+      </div>
+
+      <div class="add-book">
+        <input type="text">
+        <button>Adicionar livro</button>
+      </div>
+    </div>
+  </body>
+  <script src="/public/script.js"></script>
+</html>
